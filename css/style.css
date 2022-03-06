@@ -1,0 +1,112 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #000;
+}
+
+.container {
+	max-width: 1440px;
+	margin: 0 auto;
+	height: 60px;
+}
+.header-container {
+	padding: 5px 20px;
+	display: flex;
+	justify-content: space-between;
+}
+.header-logo{
+	height: 50px;
+	width: 50px;
+	filter: none;
+	transition: 0.3s;
+}
+.header-logo:hover{
+	filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+	contrast(87%);
+}
+.nav-items{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	height: 50px;
+}
+.nav-item{
+	color: #fff;
+	margin: auto 0;
+	padding: 0 20px;
+	font-family: Roboto, sans-serif;
+	transition: 0.3s;
+	cursor: pointer;
+}
+.nav-item.active{
+	color: #bdae82;
+}
+.nav-item.active:hover{
+	filter: brightness(65%)
+}
+.nav-item:hover{
+	color: #bdae82;
+}
+ul{
+	list-style: none;
+	font-size: 20px;
+}
+
+
+
+.main-container{
+	height: 829px;
+	background: url('../assets/img/forest.jpg') no-repeat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.btn{
+	width: 160px;
+	height: 160px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+.btn:hover{
+	filter: brightness(.85);
+}
+
+
+
+.footer-container{
+	display: flex;
+	justify-content: space-between;
+	padding: 5px 20px;
+}
+.copyr{
+	display: flex;
+	width: 100%;
+	justify-content: flex-start;
+}
+.github{
+	transition: 0.3s;
+}
+.github:hover{
+ color: #bdae82;
+}
+.mail-svg{
+	filter: invert(100%);
+	transition: 0.3s;
+}
+.mail-svg:hover{
+	filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+	contrast(87%);
+}
+a, p{
+	text-decoration: none;
+	color: #fff;
+	margin: auto 0;
+	font-size: 20px;
+	font-family: Roboto, sans-serif;
+	margin-right: 20px;
+}
